@@ -28,9 +28,9 @@
 ## ex)
 
 ```js
-import Main from './components/Main';
-import CreateRoom from './components/CreateRoom';
-import EnterRoom from './components/EnterRoom';
+import Main from './components/page/Main';
+import CreateRoom from './components/page/CreateRoom';
+import EnterRoom from './components/page/EnterRoom';
 ```
 
 <center><h2>▼</h2></center></br>
