@@ -1,4 +1,4 @@
-# 초기 설정법
+## 초기 설정법
 
 ```
 1. vscode 확장 프로그램 prettier 설치
@@ -15,13 +15,13 @@
 5. 저장 했을 때 frontend 폴더 내의 .prettierrc.json 내의 규칙대로 형식이 자동 저장되면 prettier가 적용된 상태입니다.
 
 6. 추후에 프론트엔드 회의에서 prettier 규칙을 추가하고 싶으면 .prettierrc.json 을 수정하시면 됩니다.
-
-※ eslint까지 적용하려 했는데 자꾸 적용이 잘 안돼서 이거는 더 알아보겠습니다.
 ```
+
+~~eslint까지 적용하려 했는데 자꾸 적용이 잘 안돼서 이거는 더 알아보겠습니다.~~ (prettier 규칙에 맞게 추가 완료.)
 
 ---
 
-# components 파일 규칙
+## components 파일 규칙
 
 이전에 react 를 배울 때 파일을 import 하기위해 한줄에 하나씩 import 방식보다 간편한 방식입니다.
 
@@ -44,7 +44,7 @@ import { Main, CreateRoom, EnterRoom } from './components/page';
 
 ---
 
-# scss 파일 규칙
+## scss 파일 규칙
 
     1. 일단 기본 설정이 담긴 base 폴더와 components 폴더가 있는데 각자 페이지 scss를 추가할 때 components 내에서 추가로 폴더를 만드시고 생성하시면 됩니다.
 
@@ -58,7 +58,7 @@ import { Main, CreateRoom, EnterRoom } from './components/page';
 
 ---
 
-# 전체 파일구조
+## 전체 파일구조
 
 - src
   (어느 depth를 기준으로 하위 폴더를 구성할지 정해서 page ,UI, scss/components 의 하위폴더를 생성하시면 됩니다.)
