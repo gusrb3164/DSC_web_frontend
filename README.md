@@ -1,6 +1,6 @@
-## 초기 설정법
+# 초기 설정법
 
-```
+```md
 1. vscode 확장 프로그램 prettier 설치
 
 2. vscode 설정에서 format on save 를 체크
@@ -33,19 +33,24 @@ import CreateRoom from './components/page/CreateRoom';
 import EnterRoom from './components/page/EnterRoom';
 ```
 
-<center><h2>▼</h2></center></br>
+## ▼
 
 ```js
 import { Main, CreateRoom, EnterRoom } from './components/page';
 ```
 
-    1. 각 폴더마다, 생성할 때마다 index.js 를 생성
+~~1.각 폴더를, 생성할 때마다 index.js 를 생성~~
+
+```md
+    1. page 하위 파일들은 모두 page root 폴더의 index.js UI는 모두 UI root 폴더 index.js 내에 입력해주세요.
     2. 생성한 파일은 해당 폴더내의 index.js 안에서 export 를 해준다. (page/index.js 참조)
+```
 
 ---
 
 ## scss 파일 규칙
 
+```md
     1. 일단 기본 설정이 담긴 base 폴더와 components 폴더가 있는데 각자 페이지 scss를 추가할 때 components 내에서 추가로 폴더를 만드시고 생성하시면 됩니다.
 
     2. 그리고 생성된 파일을 따로 react js 파일에서 불러올 필요없이 main.scss 에 import 하시면 자동 적용 됩니다.
@@ -55,6 +60,7 @@ import { Main, CreateRoom, EnterRoom } from './components/page';
     4. 파일내에서 사용할 색상 변수 같은건 base/_variables.scss 내에 저장해놓고 사용
 
     5. 추가적인 문법사용 예시는 _main.scss 참조
+```
 
 ---
 
