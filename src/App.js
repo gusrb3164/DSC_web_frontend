@@ -4,7 +4,7 @@ import { Grid, Typography } from '@material-ui/core';
 import { Main, CreateRoom, EnterRoom } from './components/page';
 import './scss/main.scss';
 
-function App() {
+function App() { 
 	return (
 		<BrowserRouter>
 			<Grid className="app">
